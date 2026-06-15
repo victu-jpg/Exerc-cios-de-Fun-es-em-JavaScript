@@ -1,0 +1,13 @@
+function menorNumero(a, b, c){
+    let menor=a;
+    if (b < menor){
+        menor=b;
+    }
+    if (c < menor){
+        menor=c;
+    }
+    return menor;}
+let n1 = parseInt(prompt("Digite o primeiro número:"));
+let n2 = parseInt(prompt("Digite o segundo número:"));
+let n3 = parseInt(prompt("Digite o terceiro número:"));
+alert("Menor número = " +menorNumero(n1, n2, n3));
