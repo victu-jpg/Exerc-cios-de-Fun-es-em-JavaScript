@@ -1,0 +1,9 @@
+function imprimirnumeros(n){
+    let resultado = "";
+    for (let i = 1; i <= n; i++){
+        resultado += i + "\n";
+    }
+    alert(resultado);
+}
+let n = parseInt(prompt("Digite um número:"));
+imprimirnumeros(n);
