@@ -1,5 +1,5 @@
 function raizQuadrada(numero){
-    return Math.sqrt(numero);
+    return Math.sqrt(numero)
 }
-let numero = parseFloat(prompt("Digite um número:"));
-alert("Raiz quadrada = " + raizQuadrada(numero));
+let numero = parseFloat(prompt("Digite um número:"))
+alert("Raiz quadrada = " + raizQuadrada(numero))
