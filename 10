@@ -3,7 +3,7 @@ function fatorial(numero){
     for (let i = 1; i <= numero; i++){
         resultado *= i
     }
-    return resultado;
+    return resultado
 }
-let numero = parseInt(prompt("Digite um número:"))
+let numero = parseInt(prompt("Digite um número"))
 alert("Fatorial = " + fatorial(numero))
