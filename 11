@@ -1,4 +1,4 @@
 function maiorDeIdade(idade){
     return idade >= 18;}
-let idade = parseInt(prompt("Digite sua idade:"))
+let idade = parseInt(prompt("Digite sua idade"))
 alert(maiorDeIdade(idade))
