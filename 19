@@ -1,6 +1,6 @@
 function calcularIMC(peso, altura){
-    return peso / (altura * altura);
+    return peso / (altura * altura)
 }
-let peso = parseFloat(prompt("Digite o peso:"));
-let altura = parseFloat(prompt("Digite a altura:"));
-alert("IMC = " + calcularIMC(peso, altura).toFixed(2));
+let peso = parseFloat(prompt("Digite o peso"))
+let altura = parseFloat(prompt("Digite a altura"))
+alert("IMC = " + calcularIMC(peso, altura).toFixed(2))
