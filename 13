@@ -2,11 +2,11 @@ function contarPares(n){
     let contador = 0;
     for (let i = 1; i <= n; i++){
         if (i % 2 === 0){
-            contador++;
+            contador++
         }
     }
-    return contador;
+    return contador
 }
-let n = parseInt(prompt("Digite um número:"));
-alert("Quantidade de pares = " + contarPares(n));
+let n = parseInt(prompt("Digite um número:"))
+alert("Quantidade de pares = " + contarPares(n))
 
