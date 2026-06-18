@@ -7,7 +7,7 @@ function Primo(numero){
             return false
         }
     }
-    return true;
+    return true
 }
-let numero = parseInt(prompt("Digite um número:"))
+let numero = parseInt(prompt("Digite um número"))
 alert(Primo(numero))
