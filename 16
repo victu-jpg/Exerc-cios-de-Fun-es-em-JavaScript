@@ -1,6 +1,6 @@
 function potencia(base, expoente){
     return Math.pow(base, expoente)
 }
-let base = parseFloat(prompt("Digite a base:"))
-let expoente = parseInt(prompt("Digite o expoente:"))
+let base = parseFloat(prompt("Digite a base"))
+let expoente = parseInt(prompt("Digite o expoente"))
 alert("Resultado = " + potencia(base, expoente))
