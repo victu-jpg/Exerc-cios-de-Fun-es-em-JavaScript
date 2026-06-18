@@ -1,9 +1,9 @@
 function somarateN(n){
     let soma = 0;
     for (let i = 1; i <= n; i++){
-        soma += i;
+        soma += i
     }
-    return soma;
+    return soma
 }
-let n = parseInt(prompt("Digite um número:"));
-alert("Soma = " + somarateN(n));
+let n = parseInt(prompt("Digite um número"))
+alert("Soma = " + somarateN(n))
